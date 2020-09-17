@@ -36,8 +36,8 @@ void binarySearch(std::ofstream &writer, int target, int size, int *vector) {
 int main() {
     int input;
     std::ifstream dataReader("testcases.txt");
-    std::ofstream linearWriter("lineardata.txt");
-    std::ofstream binaryWriter("binarydata.txt");
+    std::ofstream linearWriter("lineardata.csv");
+    std::ofstream binaryWriter("binarydata.csv");
     dataReader >> input;
     while (input != 0) {
         int vector[input];
